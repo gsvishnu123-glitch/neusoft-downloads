@@ -1,4 +1,36 @@
 {
   "schema_version": 1,
-  "releases": []
+  "release_name": "NeuSoft Pre-Launch Testing",
+  "tag": "prelaunch-2026.10.21",
+  "prerelease": true,
+  "releases": [
+    {
+      "platform": "android",
+      "app_name": "NeuSoft for Android",
+      "version": "1.0.0",
+      "version_code": 1,
+      "package_id": "in.neusoft.client",
+      "file_name": "NeuSoft-Android-1.0.0.apk",
+      "file_size_bytes": 36583490,
+      "sha256": "4328bf55247ff6c2d6a06925355f7928c34d06713e5ee456e0a0a7845ddbab71",
+      "download_url": "https://github.com/gsvishnu123-glitch/neusoft-downloads/releases/download/prelaunch-2026.10.21/NeuSoft-Android-1.0.0.apk",
+      "signing_status": "signed",
+      "published": true,
+      "release_notes": "Pre-launch testing build. Verify SHA-256 before installation. Customer device acceptance testing is pending."
+    },
+    {
+      "platform": "windows",
+      "app_name": "NeuSoft for Windows",
+      "version": "1.1.0",
+      "architecture": "x64",
+      "file_name": "NeuSoft-POS-Windows-1.1.0-x64.exe",
+      "file_size_bytes": 110544839,
+      "sha256": "c5d76c850b2984ac049939ad4fea7a369d5dd45346581058c9428b2b2197ade7",
+      "download_url": "https://github.com/gsvishnu123-glitch/neusoft-downloads/releases/download/prelaunch-2026.10.21/NeuSoft-POS-Windows-1.1.0-x64.exe",
+      "signing_status": "unsigned",
+      "publisher_warning": "Unsigned installer; Windows may show unknown-publisher or SmartScreen warnings.",
+      "published": true,
+      "release_notes": "Pre-launch testing build. Verify SHA-256 before installation. Installation and customer acceptance testing are pending."
+    }
+  ]
 }
